@@ -5,7 +5,7 @@ import Navbaritem from "./Navbaritem";
 const Navbar = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <div className="flex dark:bg-amber-600 bg-amber-100 p-4 lg:text-lg text-sm justify-center gap-4">
+      <div className="flex dark:bg-gray-800 bg-amber-100 p-4 lg:text-lg text-sm justify-center gap-4">
         <Navbaritem title="Trending" param="FetchTrending" />
         <Navbaritem title="Top Rated" param="TopRated" />
       </div>
